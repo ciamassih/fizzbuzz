@@ -29,5 +29,9 @@ class TestFizzbuzz(unittest.TestCase):
         fizzbuzz = Fizzbuzz()
         self.assertEqual(fizzbuzz.process(30), "Fizzbuzz")
 
+    def test_other_numbers(self):
+        fizzbuzz = Fizzbuzz()
+        self.assertEqual(fizzbuzz.process(2), 2)
+
 
 
