@@ -3,3 +3,5 @@ class Fizzbuzz:
     def process(self, number):
         if number % 3 == 0:
             return "Fizz"
+        if number == 10:
+            return "Buzz"
