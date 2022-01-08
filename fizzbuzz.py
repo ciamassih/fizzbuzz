@@ -1,4 +1,5 @@
 class Fizzbuzz:
 
-    def __init__(self, fizz):
-        self.fizz = "Fizz"
+    def process(self, number):
+        if number % 3 == 0:
+            return "Fizz"
