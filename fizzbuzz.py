@@ -1,7 +1,7 @@
 class Fizzbuzz:
 
     def process(self, number):
-        if number == 15:
+        if (number % 3 == 0) and (number % 5 == 0):
             return "Fizzbuzz"
         if number % 3 == 0:
             return "Fizz"

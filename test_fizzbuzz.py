@@ -25,5 +25,9 @@ class TestFizzbuzz(unittest.TestCase):
         fizzbuzz = Fizzbuzz()
         self.assertEqual(fizzbuzz.process(15), "Fizzbuzz")
 
+    def test_multiple_of_five_and_three_30(self):
+        fizzbuzz = Fizzbuzz()
+        self.assertEqual(fizzbuzz.process(30), "Fizzbuzz")
+
 
 
