@@ -17,8 +17,8 @@ class TestFizzbuzz(unittest.TestCase):
         fizzbuzz = Fizzbuzz()
         self.assertEqual(fizzbuzz.process(10), "Buzz")
 
-    def test_multiple_of_five_15(self):
+    def test_multiple_of_five_20(self):
         fizzbuzz = Fizzbuzz()
-        self.assertEqual(fizzbuzz.process(15), "Buzz")
+        self.assertEqual(fizzbuzz.process(20), "Buzz")
 
 
